@@ -21,7 +21,8 @@
   </div>
 </template>
 
-<script>import {ScrollView, ScrollViewMore} from 'mand-mobile'
+<script>
+import {ScrollView, ScrollViewMore} from 'mand-mobile'
 
 export default {
   name: 'scroll-view-demo-2',
@@ -37,7 +38,7 @@ export default {
   },
   data() {
     return {
-      list: 10,
+      list: 0,
       isFinished: false,
     }
   },
@@ -57,7 +58,8 @@ export default {
     },
   },
 }
-</script>
+
+</script>
 
 <style lang="stylus">
 .md-example-child-scroll-view-3
